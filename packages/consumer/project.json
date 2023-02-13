@@ -11,7 +11,8 @@
         "outputPath": "dist/packages/consumer",
         "main": "packages/consumer/src/index.ts",
         "tsConfig": "packages/consumer/tsconfig.lib.json",
-        "assets": ["packages/consumer/*.md"]
+        "assets": ["packages/consumer/*.md"],
+        "transformers": ["@repro/transformer"]
       }
     },
     "lint": {
@@ -22,5 +23,6 @@
       }
     }
   },
-  "tags": []
+  "tags": [],
+  "implicitDependencies": ["transformer"]
 }

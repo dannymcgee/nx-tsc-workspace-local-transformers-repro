@@ -5,19 +5,25 @@ specifiers:
   '@nrwl/js': 15.6.3
   '@nrwl/linter': 15.6.3
   '@nrwl/workspace': 15.6.3
+  '@types/node': ^18.13.0
   '@typescript-eslint/eslint-plugin': ^5.36.1
   '@typescript-eslint/parser': ^5.36.1
   eslint: ~8.15.0
   eslint-config-prettier: 8.1.0
   nx: 15.6.3
   prettier: ^2.6.2
+  tslib: ^2.5.0
   typescript: ~4.8.2
+
+dependencies:
+  tslib: 2.5.0
 
 devDependencies:
   '@nrwl/eslint-plugin-nx': 15.6.3_onulq4nbgkzyjbkr7hctg766wa
   '@nrwl/js': 15.6.3_2u2gzctz54omcka5teftpq3jfa
   '@nrwl/linter': 15.6.3_2gweb7o7pkltzmj3jx6phpvxki
   '@nrwl/workspace': 15.6.3_3joxs7tzhkrjjacnd53qs32tau
+  '@types/node': 18.13.0
   '@typescript-eslint/eslint-plugin': 5.51.0_zsll5hqugnkcrqry7wilrq4a2e
   '@typescript-eslint/parser': 5.51.0_oy7hgmlo6357d5kkcjbkfgtg4q
   eslint: 8.15.0
@@ -1528,6 +1534,10 @@ packages:
 
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
+    dev: true
+
+  /@types/node/18.13.0:
+    resolution: {integrity: sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==}
     dev: true
 
   /@types/parse-json/4.0.0:
@@ -3226,7 +3236,6 @@ packages:
 
   /tslib/2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
-    dev: true
 
   /tsutils/3.21.0_typescript@4.8.4:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
